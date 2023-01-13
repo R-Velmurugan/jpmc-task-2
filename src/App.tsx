@@ -45,7 +45,7 @@ class App extends Component<{}, IState> {
         DataStreamer.getData((serverResponds: ServerRespond[]) => {
             this.setState({
                 data: serverResponds,
-                showGraph: true;
+                showGraph: true,
             });
         });
         i++;
